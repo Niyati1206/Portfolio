@@ -1,5 +1,3 @@
----
-
 # My Developer Portfolio 🚀
 
 A modern, responsive developer portfolio built with [React](https://react.dev/), [Tailwind CSS](https://tailwindcss.com/), and [AOS](https://michalsnik.github.io/aos/).  
