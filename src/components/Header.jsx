@@ -1,6 +1,5 @@
 import React from 'react';
 import 'boxicons/css/boxicons.min.css';
-
 const Header = () => {
   const toggleMobileMenu = () => {
     const mobileMenu = document.getElementById('mobileMenu');

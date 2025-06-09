@@ -1,5 +1,6 @@
 import React from 'react'
 import 'boxicons/css/boxicons.min.css';
+import MeImage from '../assets/img/Me.jpg';
 
 const About = () => {
   return (
@@ -37,7 +38,7 @@ const About = () => {
             <div className='relative w-80 h-96 lg:w-96 lg:h-[28rem] rounded-2xl overflow-hidden border border-[#2a2a2a]'>
               {/* Placeholder for your image - replace src with your actual image */}
               <img 
-                src="src/assets/img/Me.jpg" 
+                src={MeImage}
                 alt="Niyati Sawant" 
                 className='w-full h-full object-cover'
                 onError={(e) => {

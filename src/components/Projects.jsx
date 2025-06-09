@@ -1,5 +1,12 @@
 import React from 'react'
 import 'boxicons/css/boxicons.min.css';
+import PaperEvaluation from '../assets/img/PaperEvaluation.png';
+import Intelligent from '../assets/img/Intelligentusethis.jfif'; 
+import Evidence from '../assets/img/EvidenceManagement.png'; // Update the path to your image
+import Healthometer from '../assets/img/Healthometer.png'; // Update the path to your image
+import TripGuide from '../assets/img/TripGuide.jpg'; // Update the path to your image
+import KITE from '../assets/img/KITE.png'; // Update the path to your image
+import Portfolio from '../assets/img/Portfolio.png'; // Update the path to your image
 
 const Projects = () => {
   const projectsData = [
@@ -10,7 +17,7 @@ const Projects = () => {
       technologies: ["Django", "HTML/CSS", "OCR", "NLP", "Google Vision API", "Python"],
       githubLink: "https://github.com/Niyati1206/AI_based_Paper_Evaluation.git",
       liveLink: "https://docs.google.com/document/d/1tA9PxDcHQA6DAJUBkz1os2fEk33DQelZvElO04J63sI/edit?usp=sharing",
-      image: "src/assets/img/PaperEvaluation.png",
+      image: PaperEvaluation,
       featured: true
     },
     {
@@ -20,7 +27,7 @@ const Projects = () => {
       technologies: ["Javascript", "XGBoost", "Machine Learning"],
       githubLink: "https://github.com/Niyati1206/Intelligent-Phishing-Detection.git",
       liveLink: "https://drive.google.com/file/d/1RF5EnPTaL0zeEULlTBzbCY3h2eqUh38I/view?usp=sharing",
-      image: "src/assets/img/Intelligentusethis.jfif",
+      image: Intelligent,
       featured: true
     },
     {
@@ -30,7 +37,7 @@ const Projects = () => {
       technologies: ["Truffle", "Ganache", "IPFS via Pinata", "Ethereum", "MetaMask", "HTML/CSS", "JavaScript"],
       githubLink: "https://github.com/Niyati1206/EvidenceManagementSystem",
       liveLink: null,
-      image: "src/assets/img/EvidenceManagement.png",
+      image: Evidence,
       featured: false
     },
     {
@@ -40,7 +47,7 @@ const Projects = () => {
       technologies: ["IOT", "Arduino", "Machine Learning", "Streamlit", "Kotlin"],
       githubLink: "https://github.com/subh1416/Respiratory-Diseases",
       liveLink: null,
-      image: "src/assets/img/Healthometer.png",
+      image: Healthometer,
       featured: false
     },
     {
@@ -50,7 +57,7 @@ const Projects = () => {
       technologies: ["React", "Tailwind CSS", "Spline", "AOS", "Vercel"],
       githubLink: "https://github.com/Niyati1206/Portfolio",
       liveLink: "https://niyati-portfolio.com",
-      image: "src/assets/img/Portfolio.png",
+      image: Portfolio,
       featured: false
     },
     {
@@ -60,7 +67,7 @@ const Projects = () => {
       technologies: ["HTML","CSS","Javascript","MySQL"],
       githubLink: "https://github.com/subh1416/KITE-Online-Nursery",
       liveLink: null,
-      image: "src/assets/img/KITE.png",
+      image: KITE,
       featured: false
     },
     {
@@ -70,7 +77,7 @@ const Projects = () => {
       technologies: ["Flutter","Application Development"],
       githubLink: "https://github.com/Niyati1206/TripGuide",
       liveLink: null,
-      image: "src/assets/img/TripGuide.jpg",
+      image: TripGuide,
       featured: false
     },
     {
