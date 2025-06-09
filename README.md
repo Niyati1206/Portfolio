@@ -21,8 +21,8 @@ Showcase your projects, skills, and experience in style!
 
 ### 1. **Clone the repository**
 ```bash
-git clone https://github.com/your-username/your-portfolio.git
-cd your-portfolio
+git clone [https://github.com/your-username/your-portfolio.git](https://github.com/Niyati1206/portfolio.git)
+cd portfolio
 ```
 
 ### 2. **Install dependencies**
@@ -38,34 +38,16 @@ Open [http://localhost:5173](http://localhost:5173) to view it in your browser (
 
 ---
 
-## 🛠️ Customization
-
-- **Edit your details, projects, and skills** in the `/src/components/` directory.
-- **Images:**  
-  - For images in components, [import them as modules or use the `public` folder as described in the docs.](#images)
-- **Styling:**  
-  - Modify Tailwind classes in the JSX for custom colors, spacing, etc.
-- **Animations:**  
-  - Adjust AOS attributes in components for different animation effects.
-
----
-
 ## 📦 Build for Production
 
 To create an optimized production build:
 ```bash
 npm run build
 ```
-The output will be in the `dist` folder. Deploy this folder to your preferred hosting service.
+
 
 ---
 
-## 🖼️ Images
-
-- Place static images in the `public/` folder and reference them with `/image.png`.
-- Or, import images from `src/assets/` and use them as React imports.
-
----
 
 
 
