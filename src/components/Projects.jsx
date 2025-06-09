@@ -56,7 +56,7 @@ const Projects = () => {
       description: "A modern, responsive portfolio website built with React and enhanced with 3D elements and smooth animations.",
       technologies: ["React", "Tailwind CSS", "Spline", "AOS", "Vercel"],
       githubLink: "https://github.com/Niyati1206/Portfolio",
-      liveLink: "https://niyati-portfolio.com",
+      liveLink: "https://niyati1206.github.io/portfolio/",
       image: Portfolio,
       featured: false
     },
