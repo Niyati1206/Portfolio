@@ -42,7 +42,7 @@ const Contact = () => {
       icon: 'bx-envelope',
       title: 'Email',
       value: 'niyatisawant2017@gmail.com',
-      link: 'niyatisawant2017@gmail.com'
+      link: 'https://mail.google.com/mail/u/0/#inbox?compose=new'
     },
     {
       icon: 'bx-phone',
