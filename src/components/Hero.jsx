@@ -22,8 +22,8 @@ const Hero = () => {
         {/* Dynamic Typing Text Here */}
         <h1 className='text-2xl sm:text-3xl md:text-4xl lg:text-4.5xl font-semibold tracking-wider my-7 text-[#e99b63]'>
           <Typewriter
-            words={['Python Developer', 'Frontend Developer', 'AI Enthusiast', 'Linux!']}
-            loop={0} // 0 = infinite
+            words={['Python Developer', 'Software Developer', 'AI Enthusiast', 'Linux!']}
+            loop={0} // 0 means infinite loop
             cursor
             cursorStyle='|'
             typeSpeed={70}
